@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/legends/legends",
+    "pages/battles/battles"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "LOL 助手",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  }
+}

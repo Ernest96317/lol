@@ -1,0 +1,22 @@
+<!--battles.wxml-->
+<!-- <view class="container legend-list">
+  <block wx:for="{{banners}}" wx:key="id">
+    <text class="legend-item">{{item.nickname}}</text>
+  <view class="image-section">
+   <image style="width: 80px; height: 80px; background-color: #eeeeee;" mode="aspectFit" src="{{item.img}}"></image>
+   </view>
+  </block>
+</view> -->
+
+<view class="container battle-list">
+  <block wx:for="{{banners}}" wx:key="id">
+    <view class="column-content">
+      <view class="image-section">
+      <image style="width: 50px; height: 50px; background-color: #eeeeee;" mode="aspectFit" src="{{item.img}}"></image>
+      </view>
+      <text class="battle-item">{{item.time}}</text>
+      <text class="battle-item">{{item.number}}</text>
+      <text class="battle-item">{{item.desc}}</text>
+    </view>
+  </block>
+</view>
